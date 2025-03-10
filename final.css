@@ -9,9 +9,8 @@
 
 .header{
 	
-	height: 100vh;
 	width: 100%;
-	padding: 0 8%;
+	padding: 1em;
 	background-color: #FF9999;
 	position:relative;
 	
@@ -96,6 +95,9 @@ h1{
 				mix-blend-mode: normal;
 				-webkit-background-clip: text;
 				background-clip: text;
+				 border-style: inset;
+	border-color:salmon;
+	border-width: 10px;
 }
 
 body{
@@ -111,14 +113,21 @@ html {
 
 }
 
-#p1 { border-style: inset;
-	border-color:limegreen;
-	border-width: 20px;
-	font-family:copperplate;
+#p1 {
 }
 table, th, td { border: 1px solid;
-
 }
+
+.highlight{
+    display: inline-block;
+    padding: .25em 0;
+    background: #FFC107;
+    color: #ffffff;
+}
+	
+	
+	
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -137,4 +146,12 @@ table, th, td { border: 1px solid;
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+img:hover{
+    height: 400px;
+    width: 400px;
 }
