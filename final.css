@@ -155,3 +155,17 @@ img:hover{
     height: 400px;
     width: 400px;
 }
+
+@media only screen and (max-width:600px) {
+	
+	body {
+		background-color:#ffbf00;
+	}
+}
+
+@media only screen and (min-width:600px) {
+	 body { background-color: #FF9999;
+	 
+	 }
+	 
+}
